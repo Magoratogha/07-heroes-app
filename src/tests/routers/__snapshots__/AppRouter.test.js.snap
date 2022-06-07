@@ -1,0 +1,21 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Test on <AppRouter /> should render LoginScreen if user is not authenticated 1`] = `
+<div>
+  <div
+    class="container mt-5"
+  >
+    <h1
+      class="display-6"
+    >
+      Login Screen
+    </h1>
+    <hr />
+    <button
+      class="btn btn-outline-dark"
+    >
+      Login
+    </button>
+  </div>
+</div>
+`;
