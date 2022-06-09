@@ -19,3 +19,599 @@ exports[`Test on <AppRouter /> should render LoginScreen if user is not authenti
   </div>
 </div>
 `;
+
+exports[`Test on <AppRouter /> should render Marvel component if user is authenticated 1`] = `
+<div>
+  <nav
+    class="navbar navbar-expand-sm navbar-dark bg-dark"
+  >
+    <div
+      class="container-fluid"
+    >
+      <a
+        class="navbar-brand"
+        href="/marvel"
+      >
+        HeroesApp
+      </a>
+      <div
+        class="navbar-collapse"
+      >
+        <div
+          class="navbar-nav"
+        >
+          <a
+            aria-current="page"
+            class="nav-item nav-link active"
+            href="/marvel"
+          >
+            Marvel
+          </a>
+          <a
+            class="nav-item nav-link"
+            href="/dc"
+          >
+            DC
+          </a>
+          <a
+            class="nav-item nav-link"
+            href="/search"
+          >
+            Search
+          </a>
+        </div>
+      </div>
+      <div
+        class="navbar-collapse collapse w-100 order-3 dual-collapse2 d-flex justify-content-end "
+      >
+        <ul
+          class="navbar-nav ml-auto"
+        >
+          <span
+            class="nav-item nav-link text-warning"
+          >
+            Test
+          </span>
+          <button
+            class="btn nav-item nav-link"
+          >
+            Logout
+          </button>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <div
+    class="container mt-4 mb-5"
+  >
+    <h1>
+      Marvel Screen
+    </h1>
+    <hr />
+    <div
+      class="row row-cols-1 row-cols-md-3 g-3 animate__animated animate__fadeIn"
+    >
+      <div
+        class="col mb-2 animate__animated animate__fadeIn"
+      >
+        <div
+          class="card"
+        >
+          <div
+            class="row no-gutters"
+          >
+            <div
+              class="col-5 py-3 ps-4 pe-0"
+            >
+              <img
+                alt="Spider Man"
+                class="card-img"
+                src="/assets/images/marvel-spider.jpg"
+              />
+            </div>
+            <div
+              class="col-7"
+            >
+              <div
+                class="card-body"
+              >
+                <h5
+                  class="card-title"
+                >
+                  Spider Man
+                </h5>
+                <p
+                  class="card-text"
+                >
+                  Peter Parker
+                </p>
+                <p
+                  class="card-text"
+                >
+                  <small>
+                    Amazing Fantasy #15
+                  </small>
+                </p>
+                <a
+                  class="btn btn-outline-dark btn-sm"
+                  href="/hero/marvel-spider"
+                >
+                  View more...
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        class="col mb-2 animate__animated animate__fadeIn"
+      >
+        <div
+          class="card"
+        >
+          <div
+            class="row no-gutters"
+          >
+            <div
+              class="col-5 py-3 ps-4 pe-0"
+            >
+              <img
+                alt="Captain America"
+                class="card-img"
+                src="/assets/images/marvel-captain.jpg"
+              />
+            </div>
+            <div
+              class="col-7"
+            >
+              <div
+                class="card-body"
+              >
+                <h5
+                  class="card-title"
+                >
+                  Captain America
+                </h5>
+                <p
+                  class="card-text"
+                >
+                  Steve Rogers
+                </p>
+                <p
+                  class="card-text"
+                >
+                  <small>
+                    Captain America Comics #1
+                  </small>
+                </p>
+                <a
+                  class="btn btn-outline-dark btn-sm"
+                  href="/hero/marvel-captain"
+                >
+                  View more...
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        class="col mb-2 animate__animated animate__fadeIn"
+      >
+        <div
+          class="card"
+        >
+          <div
+            class="row no-gutters"
+          >
+            <div
+              class="col-5 py-3 ps-4 pe-0"
+            >
+              <img
+                alt="Iron Man"
+                class="card-img"
+                src="/assets/images/marvel-iron.jpg"
+              />
+            </div>
+            <div
+              class="col-7"
+            >
+              <div
+                class="card-body"
+              >
+                <h5
+                  class="card-title"
+                >
+                  Iron Man
+                </h5>
+                <p
+                  class="card-text"
+                >
+                  Tony Stark
+                </p>
+                <p
+                  class="card-text"
+                >
+                  <small>
+                    Tales of Suspense #39
+                  </small>
+                </p>
+                <a
+                  class="btn btn-outline-dark btn-sm"
+                  href="/hero/marvel-iron"
+                >
+                  View more...
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        class="col mb-2 animate__animated animate__fadeIn"
+      >
+        <div
+          class="card"
+        >
+          <div
+            class="row no-gutters"
+          >
+            <div
+              class="col-5 py-3 ps-4 pe-0"
+            >
+              <img
+                alt="Thor"
+                class="card-img"
+                src="/assets/images/marvel-thor.jpg"
+              />
+            </div>
+            <div
+              class="col-7"
+            >
+              <div
+                class="card-body"
+              >
+                <h5
+                  class="card-title"
+                >
+                  Thor
+                </h5>
+                <p
+                  class="card-text"
+                >
+                  Thor Odinson
+                </p>
+                <p
+                  class="card-text"
+                >
+                  <small>
+                    Journey into Myster #83
+                  </small>
+                </p>
+                <a
+                  class="btn btn-outline-dark btn-sm"
+                  href="/hero/marvel-thor"
+                >
+                  View more...
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        class="col mb-2 animate__animated animate__fadeIn"
+      >
+        <div
+          class="card"
+        >
+          <div
+            class="row no-gutters"
+          >
+            <div
+              class="col-5 py-3 ps-4 pe-0"
+            >
+              <img
+                alt="Hulk"
+                class="card-img"
+                src="/assets/images/marvel-hulk.jpg"
+              />
+            </div>
+            <div
+              class="col-7"
+            >
+              <div
+                class="card-body"
+              >
+                <h5
+                  class="card-title"
+                >
+                  Hulk
+                </h5>
+                <p
+                  class="card-text"
+                >
+                  Bruce Banner
+                </p>
+                <p
+                  class="card-text"
+                >
+                  <small>
+                    The Incredible Hulk #1
+                  </small>
+                </p>
+                <a
+                  class="btn btn-outline-dark btn-sm"
+                  href="/hero/marvel-hulk"
+                >
+                  View more...
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        class="col mb-2 animate__animated animate__fadeIn"
+      >
+        <div
+          class="card"
+        >
+          <div
+            class="row no-gutters"
+          >
+            <div
+              class="col-5 py-3 ps-4 pe-0"
+            >
+              <img
+                alt="Wolverine"
+                class="card-img"
+                src="/assets/images/marvel-wolverine.jpg"
+              />
+            </div>
+            <div
+              class="col-7"
+            >
+              <div
+                class="card-body"
+              >
+                <h5
+                  class="card-title"
+                >
+                  Wolverine
+                </h5>
+                <p
+                  class="card-text"
+                >
+                  James Howlett
+                </p>
+                <p
+                  class="card-text"
+                >
+                  <small>
+                    The Incredible Hulk #180
+                  </small>
+                </p>
+                <a
+                  class="btn btn-outline-dark btn-sm"
+                  href="/hero/marvel-wolverine"
+                >
+                  View more...
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        class="col mb-2 animate__animated animate__fadeIn"
+      >
+        <div
+          class="card"
+        >
+          <div
+            class="row no-gutters"
+          >
+            <div
+              class="col-5 py-3 ps-4 pe-0"
+            >
+              <img
+                alt="Daredevil"
+                class="card-img"
+                src="/assets/images/marvel-daredevil.jpg"
+              />
+            </div>
+            <div
+              class="col-7"
+            >
+              <div
+                class="card-body"
+              >
+                <h5
+                  class="card-title"
+                >
+                  Daredevil
+                </h5>
+                <p
+                  class="card-text"
+                >
+                  Matthew Michael Murdock
+                </p>
+                <p
+                  class="card-text"
+                >
+                  <small>
+                    Daredevil #1
+                  </small>
+                </p>
+                <a
+                  class="btn btn-outline-dark btn-sm"
+                  href="/hero/marvel-daredevil"
+                >
+                  View more...
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        class="col mb-2 animate__animated animate__fadeIn"
+      >
+        <div
+          class="card"
+        >
+          <div
+            class="row no-gutters"
+          >
+            <div
+              class="col-5 py-3 ps-4 pe-0"
+            >
+              <img
+                alt="Hawkeye"
+                class="card-img"
+                src="/assets/images/marvel-hawkeye.jpg"
+              />
+            </div>
+            <div
+              class="col-7"
+            >
+              <div
+                class="card-body"
+              >
+                <h5
+                  class="card-title"
+                >
+                  Hawkeye
+                </h5>
+                <p
+                  class="card-text"
+                >
+                  Clinton Francis Barton
+                </p>
+                <p
+                  class="card-text"
+                >
+                  <small>
+                    Tales of Suspense #57
+                  </small>
+                </p>
+                <a
+                  class="btn btn-outline-dark btn-sm"
+                  href="/hero/marvel-hawkeye"
+                >
+                  View more...
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        class="col mb-2 animate__animated animate__fadeIn"
+      >
+        <div
+          class="card"
+        >
+          <div
+            class="row no-gutters"
+          >
+            <div
+              class="col-5 py-3 ps-4 pe-0"
+            >
+              <img
+                alt="Cyclops"
+                class="card-img"
+                src="/assets/images/marvel-cyclops.jpg"
+              />
+            </div>
+            <div
+              class="col-7"
+            >
+              <div
+                class="card-body"
+              >
+                <h5
+                  class="card-title"
+                >
+                  Cyclops
+                </h5>
+                <p
+                  class="card-text"
+                >
+                  Scott Summers
+                </p>
+                <p
+                  class="card-text"
+                >
+                  <small>
+                    X-Men #1
+                  </small>
+                </p>
+                <a
+                  class="btn btn-outline-dark btn-sm"
+                  href="/hero/marvel-cyclops"
+                >
+                  View more...
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        class="col mb-2 animate__animated animate__fadeIn"
+      >
+        <div
+          class="card"
+        >
+          <div
+            class="row no-gutters"
+          >
+            <div
+              class="col-5 py-3 ps-4 pe-0"
+            >
+              <img
+                alt="Silver Surfer"
+                class="card-img"
+                src="/assets/images/marvel-silver.jpg"
+              />
+            </div>
+            <div
+              class="col-7"
+            >
+              <div
+                class="card-body"
+              >
+                <h5
+                  class="card-title"
+                >
+                  Silver Surfer
+                </h5>
+                <p
+                  class="card-text"
+                >
+                  Norrin Radd
+                </p>
+                <p
+                  class="card-text"
+                >
+                  <small>
+                    The Fantastic Four #48
+                  </small>
+                </p>
+                <a
+                  class="btn btn-outline-dark btn-sm"
+                  href="/hero/marvel-silver"
+                >
+                  View more...
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
